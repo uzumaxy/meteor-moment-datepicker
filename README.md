@@ -1,4 +1,4 @@
 meteor-moment-datepicker
 ========================
 
-Moment Datepicker pakaged for Meteor
+Moment Datepicker packaged for Meteor
