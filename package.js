@@ -1,5 +1,6 @@
 Package.describe({
-  summary: "Moment Datepicker packaged for Meteor"
+  summary: "Moment Datepicker packaged for Meteor", 
+  name: "moment-datepicker"
 });
 
 Package.on_use(function(api, where) {
