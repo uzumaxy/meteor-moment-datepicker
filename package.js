@@ -1,10 +1,12 @@
 Package.describe({
-  summary: "Moment Datepicker packaged for Meteor", 
-  name: "moment-datepicker"
+  name: "gildaspk:moment-datepicker",
+  summary: "Moment Datepicker packaged for Meteor. See https://github.com/MakingSense/moment-datepicker", 
+  version: "0.0.1",
+  git: "https://github.com/djhi/meteor-moment-datepicker.git",
 });
 
 Package.on_use(function(api, where) {
-  api.use('jquery', 'client');
+  api.use('jquery', 'mrt:moment', 'client');
 
   api.add_files('moment-datepicker/moment-datepicker/moment-datepicker.js', 'client');
   api.add_files('moment-datepicker/moment-datepicker/datepicker.css', 'client');
