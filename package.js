@@ -7,6 +7,7 @@ Package.describe({
 
 Package.on_use(function(api, where) {
   api.use('jquery', 'client');
+  api.use('momentjs:moment@2.8.4');
 
   api.add_files('moment-datepicker/moment-datepicker/moment-datepicker.js', 'client');
   api.add_files('moment-datepicker/moment-datepicker/datepicker.css', 'client');
